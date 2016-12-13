@@ -7,8 +7,10 @@ import com.example.domain.Foo;
  */
 public class Foo2 extends Foo {
     public Foo2() {
-        System.out.println("In foo2 constructor calling toString: ");
+        System.out.println("In foo2 constructor calling super.toString: ");
         System.out.println(super.toString());
+        System.out.println("In foo2 constructor calling super.toString: ");
+        System.out.println(this.toString());
     }
 
     @Override

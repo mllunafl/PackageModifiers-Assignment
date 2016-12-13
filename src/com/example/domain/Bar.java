@@ -12,7 +12,7 @@ public class Bar {
         foo.packageString = "changed packagedString in bar";
         foo.protectedString ="changed protectedString in bar";
         foo.publicString = "changed publicString in bar";
-        System.out.println("in bar constructor calling tostring");
+        System.out.println("in bar constructor calling this.tostring");
 
         System.out.println(this.toString());
     }

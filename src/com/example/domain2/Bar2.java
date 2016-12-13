@@ -12,7 +12,7 @@ public class Bar2 {
         System.out.println("in bar2 constructor");
         foo = new Foo();
         foo.publicString = "changed publicString in bar2";
-        System.out.println("in bar2 constructor calling toString");
+        System.out.println("In bar2 constructor calling this.toString");
         System.out.println(this.toString());
     }
 

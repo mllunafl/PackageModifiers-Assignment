@@ -10,7 +10,7 @@ public class Foo {
     private String privateString = "private string";
 
     public Foo() {
-        System.out.println("In Foo constructor " + this.toString());
+        System.out.println("In Foo constructor calling this.toString" + this.toString());
     }
 
     @Override
